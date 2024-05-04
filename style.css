@@ -37,9 +37,16 @@ body {
 /*vh is viewport height*/
 /*flex makes the elements align in one row*/
 #landing {
-	height: 80vh;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.carousel-item img {
+	display: block;
+	margin: auto;
+	max-width: 100%:
+	height; auto;
 }
